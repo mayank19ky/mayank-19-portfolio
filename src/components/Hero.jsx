@@ -12,6 +12,24 @@ export default function Hero({ onResumeClick }) {
       </div>
 
       <div className="max-w-5xl mx-auto text-center z-10">
+        {/* Profile Avatar / Silicon Frame */}
+        <div className="relative inline-block mb-6 group">
+          <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-full p-1.5 bg-gradient-to-tr from-cyan-400 via-amber-400 to-cyan-500 shadow-2xl shadow-cyan-500/25 group-hover:shadow-cyan-400/40 transition-all duration-300">
+            <div className="w-full h-full rounded-full overflow-hidden border-4 border-circuit-950 bg-circuit-900">
+              <img
+                src="/mayank-yadav.jpg"
+                alt="Mayank Kumar Yadav"
+                className="w-full h-full object-cover object-top filter contrast-[1.05] brightness-[1.02] group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            {/* Ambient status indicator */}
+            <div className="absolute bottom-1 right-2 sm:bottom-2 sm:right-3 bg-circuit-950 px-2.5 py-1 rounded-full border border-cyan-400/80 flex items-center gap-1.5 shadow-lg">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span className="text-[10px] font-mono text-cyan-300 font-bold tracking-wider">CORE // ECE</span>
+            </div>
+          </div>
+        </div>
+
         {/* Status Chip / Pill */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-circuit-900/90 border border-cyan-500/30 text-xs font-mono text-cyan-300 mb-6 backdrop-blur-md shadow-sm shadow-cyan-500/10 animate-fade-in">
           <span className="relative flex h-2 w-2">

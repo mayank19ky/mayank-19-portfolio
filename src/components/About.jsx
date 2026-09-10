@@ -50,6 +50,23 @@ export default function About() {
             <div className="p-6 rounded-2xl bg-circuit-900/60 border border-slate-800/90 relative overflow-hidden backdrop-blur-sm">
               <div className="absolute top-0 right-0 w-28 h-28 bg-cyan-500/5 rounded-bl-full pointer-events-none" />
               
+              {/* Profile Card Header */}
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-6 pb-6 border-b border-slate-800/80">
+                <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-cyan-400/50 shadow-lg shadow-cyan-500/10 shrink-0">
+                  <img
+                    src="/mayank-yadav.jpg"
+                    alt="Mayank Kumar Yadav"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
+                <div className="text-center sm:text-left">
+                  <div className="text-[11px] font-mono text-cyan-400 tracking-wider">ENGINEER IDENTITY // HARDWARE_CORE</div>
+                  <h3 className="text-lg sm:text-xl font-bold text-white">Mayank Kumar Yadav</h3>
+                  <p className="text-xs sm:text-sm text-amber-400 font-medium">B.Tech ECE (Semiconductors) • JECRC University × TrueChip</p>
+                  <p className="text-xs text-slate-400 mt-0.5 font-mono">Location: Rewari, Haryana ➔ Jaipur, Rajasthan</p>
+                </div>
+              </div>
+
               <p className="mb-4">
                 I am a first-year <span className="text-white font-semibold">B.Tech Electronics & Communication Engineering (ECE)</span> student at <span className="text-cyan-300 font-medium">JECRC University, Jaipur</span>, pursuing a specialized track in <span className="text-amber-400 font-medium">Semiconductors in partnership with TrueChip</span>.
               </p>

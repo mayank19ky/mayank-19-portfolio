@@ -23,7 +23,12 @@ export default {
           gold: '#fbbf24',
           pcb: '#10b981',
           trace: '#38bdf8',
-        }
+        },
+        background: '#040711',
+        foreground: '#f8fafc',
+        muted: '#0e1628',
+        'muted-foreground': '#94a3b8',
+        ring: '#00f2fe',
       },
       fontFamily: {
         mono: ['"JetBrains Mono"', 'Menlo', 'Consolas', 'monospace'],

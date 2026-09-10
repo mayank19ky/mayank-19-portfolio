@@ -11,7 +11,7 @@ export default function Navbar({ onResumeClick }) {
       setIsScrolled(window.scrollY > 20);
 
       // Simple active section detection
-      const sections = ['hero', 'about', 'education', 'skills', 'projects', 'interests', 'achievements', 'contact'];
+      const sections = ['hero', 'about', 'education', 'skills', 'projects', 'showcase', 'interests', 'achievements', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -36,6 +36,7 @@ export default function Navbar({ onResumeClick }) {
     { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Showcase', href: '#showcase' },
     { name: 'Interests', href: '#interests' },
     { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' },
